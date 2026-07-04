@@ -1,0 +1,44 @@
+# ==========================================
+# Jupyter Notebook Artifacts
+# ==========================================
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+__notebook_profiles__/
+
+# If you convert notebooks to HTML/PDF, ignore the exports
+*.html
+*.pdf
+
+# ==========================================
+# Python & Core ML Artifacts
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Data and large model checkpoints
+*.pth
+*.pt
+*.pkl
+*.pickle
+*.csv
+*.xlsx
+
+# ==========================================
+# Environment & Dependencies
+# ==========================================
+.venv/
+venv/
+ENV/
+env/
+.env
+.cuda/
+utils/
+
+# ==========================================
+# OS & IDE Specific
+# ==========================================
+.DS_Store
+.vscode/
+.idea/
